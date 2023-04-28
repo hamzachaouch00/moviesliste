@@ -10,7 +10,7 @@ const Nvbr = ({setSearch,setRate,rate}) => {
     name="simple-controlled"
     value={rate}
       />
-       <input type='text'  onChange={(e)=>setSearch(e.target.value)}/>
+       <input type='text' placeholder='search' onChange={(e)=>setSearch(e.target.value)}/>
        </div>
       
   </div>
