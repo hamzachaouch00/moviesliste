@@ -3,7 +3,7 @@ import React from 'react'
 
 const Movcard = ({element}) => {
   return (
-    <div className='card'>
+    <div className ='card'>
       <img width="167px" height="291px" src={element.image} alt='404'/>
       <div className='elm'>
       <h4>Title: {element.name}</h4>
