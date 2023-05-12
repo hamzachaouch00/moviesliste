@@ -12,12 +12,14 @@ const Addfilm = ({setData,data}) => {
     const [type,setType]=useState("")
     const [date,setDate]=useState("")
     const [description,setDescription]=useState("")
+    const [image,setImage]=useState("")
     const [rating,setRate]=useState(0)
-    const handleClick=()=>setData([...data,{id:Math.random(),name,rating,type,date,description}])
+    const handleClick=()=>setData([...data,{id:Math.random(),name,rating,type,date,description,image}],handleClose())
     return (
       <div>
-      <Button variant="warning" onClick={handleShow}>
+      <Button variant="warning" onClick={handleShow} >
       Add movie
+     
     </Button>
   
     <Modal show={show} onHide={handleClose}>
@@ -29,6 +31,11 @@ const Addfilm = ({setData,data}) => {
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="Enter movie Name" onChange={(e)=>setName(e.target.value)} />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Affich</Form.Label>
+          <Form.Control type="text" placeholder="Enter link movie " onChange={(e)=>setImage(e.target.value)} />
         </Form.Group>
   
         <Form.Group className="mb-3" controlId="formBasicPassword">

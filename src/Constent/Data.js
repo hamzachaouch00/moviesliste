@@ -8,7 +8,8 @@ let moviesData = [
     date: "2022",
     type: "Action | Fantasy",
     description:
-      "A boy suspects that a superhero everyone thought died in an epic battle twenty years ago might still be alive."
+      "A boy suspects that a superhero everyone thought died in an epic battle twenty years ago might still be alive.",
+      trailer:'https://www.youtube.com/embed/9FKnTxSC16E'
   },
   {
     id: Math.random(),
@@ -19,7 +20,8 @@ let moviesData = [
     date: "2021",
     type: "Action | Comedy",
     description:
-      "When Interpol raises a Red Alert, intended to track down and capture the most wanted criminals in the world, the FBI calls on its best profiler, John Hartley."
+      "When Interpol raises a Red Alert, intended to track down and capture the most wanted criminals in the world, the FBI calls on its best profiler, John Hartley.",
+      trailer:'https://www.youtube.com/embed/Pj0wz7zu3Ms'
   },
   {
     id: Math.random(),
@@ -30,8 +32,9 @@ let moviesData = [
     date: "2018",
     type: "Action | Adventure",
     description:
-      "The film revolves around a mission of the IMF team led by Ethan Hunt, in which they race against time after one of their missions goes wrong, as they try to prevent the use of three nuclear warheads by Solomon Lane and an extremist group called The Messengers."
-  },
+      "The film revolves around a mission of the IMF team led by Ethan Hunt, in which they race against time after one of their missions goes wrong, as they try to prevent the use of three nuclear warheads by Solomon Lane and an extremist group called The Messengers.",
+      trailer:'https://www.youtube.com/embed/94bp_GeyQVY'
+    },
   {
     id: Math.random(),
     image:
@@ -41,7 +44,8 @@ let moviesData = [
     date: "2021",
     type: "Action | Adventure | Crime",
     description:
-      "After the events that took place in the previous part, The Fate Of the Furious, Cypher decides to receive help from Jacob, Dom's younger brother, in order to implement a plan for revenge on Dom and his team."
+      "After the events that took place in the previous part, The Fate Of the Furious, Cypher decides to receive help from Jacob, Dom's younger brother, in order to implement a plan for revenge on Dom and his team.",
+      trailer:'https://www.youtube.com/embed/FUK2kdPsBws'
   },
   {
     id: Math.random(),
@@ -52,7 +56,8 @@ let moviesData = [
     date: "1972",
     type: "Drama | Crime",
     description:
-      "The son of the patriarch of the most powerful Mafia clan in New York returns home from war determined to live his own life - but is forced to take up arms in a clash between his father’s traditional ways and the newcomers who threaten the family business."
+      "The son of the patriarch of the most powerful Mafia clan in New York returns home from war determined to live his own life - but is forced to take up arms in a clash between his father’s traditional ways and the newcomers who threaten the family business.",
+      trailer:'https://www.youtube.com/embed/UaVTIH8mujA'
   },
   {
     id: Math.random(),
@@ -64,7 +69,7 @@ let moviesData = [
     type: "Action | Fantasy | Comedy | Romantic",
     description:
       "Thor enlists the help of Valkyrie, Korg, and his ex-girlfriend Jane Foster to battle Jor the Good Butcher, who intends to make the gods extinct.",
-    
+      trailer:'https://www.youtube.com/embed/wPPim0we5m8'
   },
   {
     id: Math.random(),
@@ -75,7 +80,8 @@ let moviesData = [
     date: "2021",
     type: " Action | Adventure   ",
     description:
-      "The CIA's Felix Leiter appears to his long-departed friend Bond and asks him for help against a mysterious villain armed with dangerous new technology."
+      "The CIA's Felix Leiter appears to his long-departed friend Bond and asks him for help against a mysterious villain armed with dangerous new technology.",
+      trailer:'https://www.youtube.com/embed/vw2FOYjCz38'
   }
 ];
 export default moviesData
